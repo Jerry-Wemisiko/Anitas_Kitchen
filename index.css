@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background {
+    background-image: url(images/backgrounds/landing.jpg);
+    background-repeat: no-repeat;
+    text-transform: capitalize ;
+    background-size: cover;
+
+}
+
+header{
+padding: 9% 0 7.4% 38%;
+height: 50%;
+width: 62%;
+box-sizing: border-box;
+text-align: center;
+}
+
+header >p{
+    color: white;
+    font-size: 40px;
+    font-weight: 20px;
+}
+
+header >img{
+    padding-bottom: 4%;
+}
+
+.happy{
+    height: 85px;
+    width: 480px;
+    background-color: lightgray;
+}
+
+.party{
+    height: 85px;
+    width: 480px;
+    background-color: #F15A29;
+}
+
+.services{
+    display: flex;
+}
+
+#second{
+    display: flex;
+    flex-direction: row;
+}
+ #second:first-child{
+     height: 170px;
+     width: 400px;
+     
+ }
