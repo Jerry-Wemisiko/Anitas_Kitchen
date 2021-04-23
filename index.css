@@ -32,12 +32,14 @@ header >img{
     height: 85px;
     width: 480px;
     background-color: lightgray;
+    text-align: center;
 }
 
 .party{
     height: 85px;
     width: 480px;
     background-color: #F15A29;
+    text-align: center;
 }
 
 .services{
@@ -48,8 +50,27 @@ header >img{
     display: flex;
     flex-direction: row;
 }
- #second:first-child{
+.break{
      height: 170px;
-     width: 400px;
-     
+     width: 475px;
+     background-image:url(images/foodtop/breakfast.jpg);   
+     background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+ }
+ .lunch{
+    height: 170px;
+    width: 475px;
+    background-image:url(images/foodtop/lunch.jpg);   
+    background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center;
+ }
+ .dinner{
+    height: 170px;
+    width: 475px;
+    background-image:url(images/foodtop/dinner.jpg);   
+    background-size: contain;
+   background-repeat: no-repeat;
+   text-align: center
  }
