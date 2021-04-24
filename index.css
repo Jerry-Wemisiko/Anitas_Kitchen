@@ -28,49 +28,114 @@ header >img{
     padding-bottom: 4%;
 }
 
+.services{
+    display: flex;
+    /* border-collapse: collapse; */
+    flex-direction: column;
+    
+}
+
 .happy{
     height: 85px;
-    width: 480px;
+    width: 495x;
     background-color: lightgray;
     text-align: center;
+    box-sizing: border-box;
+}
+
+.happy >p
+{
+color: white;
+padding-top: 30px;
+font-size: xx-large;
 }
 
 .party{
     height: 85px;
-    width: 480px;
+    width: 495px;
     background-color: #F15A29;
     text-align: center;
 }
 
-.services{
-    display: flex;
+.party >p {
+color: white;
+padding-top: 26px;
+font-size: xx-large;
 }
+
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+/* 
+#first{
+    float: left;
+    display: flex;
+    flex-direction: column;
+} */
 
 #second{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    /* float: left; */
 }
 .break{
      height: 170px;
-     width: 475px;
+     width: 470px;
      background-image:url(images/foodtop/breakfast.jpg);   
-     background-size: contain;
+     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
  }
+
+ .break >p{
+     color: white;
+     padding-top: 30px;
+     font-style: italic;
+     font-size: xx-large;
+ }
  .lunch{
     height: 170px;
-    width: 475px;
+    width: 470px;
     background-image:url(images/foodtop/lunch.jpg);   
-    background-size: contain;
+    background-size: cover;
    background-repeat: no-repeat;
    text-align: center;
  }
+
+.lunch > p{
+ color: white;
+     padding-top: 30px;
+     font-style: italic;
+     font-size: xx-large;
+ }
  .dinner{
     height: 170px;
-    width: 475px;
+    width: 470px;
     background-image:url(images/foodtop/dinner.jpg);   
-    background-size: contain;
+    background-size: cover;
    background-repeat: no-repeat;
-   text-align: center
+   text-align: center;
  }
+ 
+ .dinner > p{
+    color: white;
+    padding-top: 30px;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.container{
+   
+ 
+    
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    box-shadow: 5px red;
+}
+
+.
