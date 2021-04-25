@@ -1,0 +1,7 @@
+.intro{
+    background-image: url(images/backgrounds/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
