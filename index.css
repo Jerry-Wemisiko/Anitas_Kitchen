@@ -262,14 +262,18 @@ footer{
 #button{
     height: 60px;
     width: inherit;
+    font-size: larger;
 
 }
 label{
     background-color:#F15A29 ;
     padding: 20px;
     justify-content: space-around;
+    color: white;
 }
 .email{
-    padding: 20px;
+    padding: 17px ; 
     text-align: left;
+    color: white;
+    font-size: larger;
 }
