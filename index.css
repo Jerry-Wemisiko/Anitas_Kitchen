@@ -243,17 +243,14 @@ ul{
       color: white;
       padding-top: 50px;
   }
-  #descr{
+  .descr{
       font-size: large;
-      font-family: Georgia, 'Times New Roman', Times, serif;
       padding-bottom: 50px;
   }
-
   #menu{
       font-size: x-large;
       display: inline-block;
       flex-direction: row;
-    
   }
 footer{
     background-color: #F15A29;
@@ -264,6 +261,4 @@ footer{
 
 btn-2{
     background-color:#F15A29;
-    
-
 }
