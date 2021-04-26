@@ -259,6 +259,17 @@ footer{
     padding: auto;
 }
 
-btn-2{
-    background-color:#F15A29;
+#button{
+    height: 60px;
+    width: inherit;
+
+}
+label{
+    background-color:#F15A29 ;
+    padding: 20px;
+    justify-content: space-around;
+}
+.email{
+    padding: 20px;
+    text-align: left;
 }
