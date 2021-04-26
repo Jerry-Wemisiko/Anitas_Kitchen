@@ -2,7 +2,7 @@
 Project 2.0
 
 #Author
-JerryWemisiko
+Jerry Wemisiko
 
 #Project Name
 Anitas_Kitchen Website
